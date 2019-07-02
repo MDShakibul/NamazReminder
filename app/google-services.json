@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756973527440",
+    "firebase_url": "https://namazreminder2.firebaseio.com",
+    "project_id": "namazreminder2",
+    "storage_bucket": "namazreminder2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756973527440:android:24639e0855942755",
+        "android_client_info": {
+          "package_name": "com.example.sakib.namazreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756973527440-3esev5vka1t7orueslueussqo2mh3do3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sakib.namazreminder",
+            "certificate_hash": "4bdc58926ea79e104c3a8996fdbcae7670f18900"
+          }
+        },
+        {
+          "client_id": "756973527440-i56asc4lvnlglku79m3kh8nttnttl4tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn_Zt6bLdwkWsH6rHDSh6NfMzx9Q23UII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756973527440-i56asc4lvnlglku79m3kh8nttnttl4tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

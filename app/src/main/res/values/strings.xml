@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Namaz Reminder</string>
+    <string name="todo">TODO</string>
+
+    <string name="fajr">Fajr</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="asr">Asr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isha">isha</string>
+    <string name="jumma">Jumma</string>
+    <string name="time_of_fajr_namaz">Time of Fajr Namaz</string>
+    <string name="open_time_picker">open time picker</string>
+    <string name="cancel">cancel</string>
+    <string name="time_of_asr_namaz">Time Of Asr Namaz</string>
+</resources>

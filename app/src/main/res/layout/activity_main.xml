@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/p2" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="289dp"
+        android:text="@string/fajr" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="167dp"
+        android:text="@string/asr" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:text="@string/isha" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="3dp"
+        android:text="@string/dhuhr" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/button14"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignBottom="@+id/button13"
+        android:text="@string/jumma" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/button14"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignTop="@+id/button12"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="-7dp"
+        android:text="@string/maghrib" />
+
+
+</RelativeLayout>

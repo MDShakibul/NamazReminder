@@ -71,7 +71,8 @@ public class asr  extends AppCompatActivity implements TimePickerDialog.OnTimeSe
          //   c.add(Calendar.DATE, 1);
        // }
 
-        alarmManager.setExact(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), pendingIntent);
+        
+		alarmManager.setExact(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), pendingIntent);
     }
 
     private void cancelAlarm() {

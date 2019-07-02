@@ -39,7 +39,11 @@ public class jumma  extends AppCompatActivity implements TimePickerDialog.OnTime
         buttonCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cancelAlarm();
+                
+				
+				cancelAlarm();
+				
+				
             }
         });
     }

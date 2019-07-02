@@ -39,7 +39,8 @@ public class fajr  extends AppCompatActivity implements TimePickerDialog.OnTimeS
         buttonCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                cancelAlarm();
+                
+				cancelAlarm();
             }
         });
     }
